@@ -1,0 +1,26 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "FullStackApp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "server": "supervisor index"
+  },
+  "keywords": [
+    "angular",
+    "express"
+  ],
+  "author": "Xursand",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
